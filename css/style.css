@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+a {
+	font-family: 'Poppins', sans-serif;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/*Header Styling Section Starts Here*/
+header {
+	padding: 2px 0;
+	background-color: #1FA4A3;
+}
+.custom-navbar-brand {
+	width: 17%;
+}
+.custom-navbar-nav a {
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 2;
+	margin-left: 15px!important;
+}
+.nav-link {
+	padding-top: 4px!important;
+	padding-bottom: 4px!important;
+}
+.custom-nav-account-btn {
+	background-color: #fff;
+	color: #1fa4a3!important;
+	line-height: 2!important;
+	border-radius: 4px;
+}
+/*Header Styling Section Ends Here*/
+
+/*Hero Banner Styling Starts Here*/
+.hero-banner-section {
+	background-image: url(../images/hero-move.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0px;
+}
+.hero-banner-content h1 {
+	font-weight: 800;
+	color: #fff;
+	font-size: 40px;
+	line-height: 2;
+}
+.hero-banner-content h3 {
+	font-weight: 600;
+	color: #fff;
+	font-size: 25px;
+}
+.hero-banner-form i {
+	color: #f9f9f9;
+	font-size: 30px;
+	line-height: 2;
+}
+.hero-banner-form input {
+	height: 60px;
+}
+.hero-banner-form input:focus {
+	box-shadow: none;
+}
+.custom-hero-submit-btn {
+	background-color: #01A0A0;
+	color: #fff;
+	font-weight: 600;
+}
+.custom-hero-submit-btn:hover {
+	background-color: #444444;
+	color: #fff;
+}
+.custom-modal-btn {
+	background-color: #444444;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 4px;
+	transition: .5s ease;
+}
+.custom-modal-btn:hover {
+	background-color: #000000;
+	color: #fff;
+}
+/*Hero Banner Styling Ends Here*/
+/*Service Icons Styling Starts*/
+.service-icons-home {
+	background-color: #f2f2f2;
+}
+.service-icon-box-home {
+	border-right: 1px solid #EEEEEE;
+	min-height: 130px;
+}
+.service-icon-box-home img {
+	margin-top: 20px;
+}
+.service-icon-box-home h6 {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.service-icon-box-home p {
+	font-size: 13px;
+	font-weight: 500;
+	color: #898D99;
+	margin: 0;
+}
+/*Service Icons Styling Ends*/
+/*Partners Styling Starts Here*/
+.partner-section {
+	background-color: #F4F4F4;
+	padding: 10px 0px;
+}
+.partner-section p {
+	font-size: 13px;
+	font-weight: 500;
+	margin: 0;
+	text-align: center;
+}
+/*Partners Styling Ends Here*/
+/*How it works Styling Starts Here*/
+.how-it-works-section {
+	padding: 80px 0px;
+}
+.how-it-works-contents h3 {
+	color: #444444;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.how-it-works-contents h5 {
+	font-size: 18px;
+	font-weight: 400;
+}
+.how-it-works-contents i {
+	color: #01A0A0;
+	font-size: 28px;
+}
+/*How it works Styling Ends Here*/
+/*Our Services Styling Starts Here*/
+.our-service-section {
+	padding: 50px 0;
+	background-color: #f2f2f2;
+}
+.section-title h3 {
+	color: #444444;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.service-box-content {
+	text-align: center;
+	margin: 10px auto;
+	position: relative;
+}
+.service-box-content a {
+	color: #fff;
+	font-size: 24px;
+}
+.service-box-content h4 {
+	font-weight: 600;
+ 	width: 60%;
+  	height: 50%;
+  	overflow: auto;
+  	margin: auto;
+  	position: absolute;
+  	top: 40px; left: 0; bottom: 0; right: 0;
+  	opacity: .8;
+  	line-height: 1.3;
+  	transition: .5s ease;
+}
+.service-box-content img {
+ 	border-radius: 4px;
+}
+.service-box-content:hover.service-box-content h4 {
+	opacity: 1;
+}
+/*Our Services Styling Ends Here*/
+/*Customer Reviews Styling Starts Here*/
+.customer-reviews-section {
+	padding: 80px 0;
+}
+.customer-review-content h3 {
+	color: #444444;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.customer-review-content h5 {
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+/*Customer Reviews Styling Ends Here*/
+
+/* Customer Review Carousel Styling Starts Here*/
+.reviews-carousel-section {
+	background-color: #f2f2f2;
+	padding: 80px 0;
+}
+.reviews-by-customers .review-box {
+	background-color: #fff;
+	padding: 20px 15px;
+	border-radius: 4px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.reviews-by-customers h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #444;
+}
+.reviews-by-customers img {
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.reviews-by-customers h3 {
+	font-size: 20px;
+	color: #01A0A0;
+	font-weight: 700;
+}
+.reviews-by-customers p {
+	font-size: 14px;
+	color: #000;
+}
+/* Customer Review Carousel Styling Ends Here*/
+
+/*Footer styling Starts Here*/
+footer {
+	padding: 10px 0;
+	background-color: #1FA4A3;
+}
+footer p {
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+/*Footer styling Ends Here*/
+
+/* Explainer Video Modal */
+.custom-modal iframe {
+  width: 100%;
+  height: 400px;
+}
+/* Explainer Video Modal */
