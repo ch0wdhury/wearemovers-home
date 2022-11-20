@@ -18,9 +18,11 @@ a:hover {
 header {
 	padding: 2px 0;
 	background-color: #1FA4A3;
+
 }
 .custom-navbar-brand {
 	width: 17%;
+	z-index: 1001;
 }
 .custom-navbar-nav a {
 	color: #fff;
@@ -44,21 +46,34 @@ header {
     color: #fff;
 }
 /*Offcanvas Menu*/
-.c-offcanvas {
-  left: 0;
-  padding: 1rem;
-  overflow-y: scroll;
-}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+        background-color: #1FA4A3;
+        z-index: 1000;
+    }
 
-.js-offcanvas a {
-   color: #337ab7;
-   outline: 0;
-}
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
 
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
 
-.js-offcanvas .dropdown-menu {
-  position:relative;
-  border:none;
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
 }
 /*Offcanvas Menu*/
 /*Header Styling Section Ends Here*/
