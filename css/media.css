@@ -11,6 +11,10 @@
 		width: 150px;
 		text-align: center;
 	}
+	.sidepanel-custom-toggler {
+		position: absolute;
+	  	right: -90px;
+	}
 	.hero-banner-section {
 		padding: 40px 0px;
 		background-position: 90% 100%;
@@ -51,6 +55,11 @@
 	.custom-nav-account-btn {
 		width: 150px;
 		text-align: center;
+	}
+	.sidepanel-custom-toggler {
+		padding-left: 60px!important;
+		position: absolute;
+	  	right: -90px;
 	}
 	.hero-banner-section {
 		padding: 40px 0px;

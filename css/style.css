@@ -22,7 +22,6 @@ header {
 }
 .custom-navbar-brand {
 	width: 17%;
-	z-index: 1001;
 }
 .custom-navbar-nav a {
 	color: #fff;
@@ -74,6 +73,13 @@ header {
     .navbar-toggler.collapsed ~ .navbar-collapse {
         transition: left 500ms ease-in-out;
     }
+}
+.sidepanel-custom-toggler {
+	padding: 14px 30px!important;
+	position: absolute;
+	top: 0px;
+  right: -50px;
+  background-color: #1FA4A3;
 }
 /*Offcanvas Menu*/
 /*Header Styling Section Ends Here*/
